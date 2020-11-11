@@ -36,11 +36,12 @@ public class BrowserUtils {
         element.sendKeys(text);
     //    wait.until(ExpectedConditions.attributeToBe(element, "value", text));
     // Added some codes
+        // more codes
         BrowserUtils.wait(1);
         System.out.println("Entering text: " + text);
     }
 
-    /**
+    /*
      * For instance, selenium webdriver is trying to enter the text:
      * Expected text input  actual text input
      *
